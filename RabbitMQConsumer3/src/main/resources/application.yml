@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: RabbitMQConsumer3
+
+server:
+  port: 8083
