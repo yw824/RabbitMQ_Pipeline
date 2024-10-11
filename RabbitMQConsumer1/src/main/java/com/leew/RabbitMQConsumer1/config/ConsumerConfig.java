@@ -1,4 +1,4 @@
-package com.leew.RabbitMQProducer.config;
+package com.leew.RabbitMQConsumer1.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ProducerConfig {
+public class ConsumerConfig {
 
     // value under is in application.yml
     @Value("${rabbitmq.queue.name}")

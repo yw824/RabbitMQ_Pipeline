@@ -2,5 +2,19 @@ spring:
   application:
     name: RabbitMQConsumer1
 
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 server:
   port: 8081
+
+rabbitmq:
+  queue:
+    name: multiple_server_queue
+  exchange:
+    name: multiple_server_exchange
+  routing:
+    key: multiple_server_key
